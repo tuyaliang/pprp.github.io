@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Welcome to pprp 's homePage
 
-You can use the [editor on GitHub](https://github.com/pprp/pprp.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+​	My name is Dong peijie, I am a college student in NWAFU majoring in Software Engineering. Now, I am Sophomore student and I am about to enter junior. I think myself have a poor programming ability so I shoud use Github to improve myself. I will have two project this Semester and I will try my best to do everything well. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+​	There are four things that play an import role in my university. They are **English learning,Personal health management, Programming skills improvement and Preparing for gradute students**
+
+### Personal Interests
+
+I would watch anime or movie in my free time
+
+![](11.jpg)
+
+
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+I am Using Markdown to create this blog and I will make full use of this blog to improve my self and sharing my personal thought, life perception.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pprp/pprp.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+> My personal Information
+> QQ: 1115957667
+> Github: [pprp's github](www.github.com/pprp)
