@@ -8,7 +8,25 @@
 
 I would watch anime or movie in my free time
 
-![](11.jpg)
+![](./pic/11.jpg)
+
+
+
+### Part 1:information_desk_person: Personal Health Management
+
+
+
+### Part 2 :person_frowning:Programming Skills 
+
+
+
+### Part 3 :person_with_pouting_face:English Learning
+
+
+
+### Part 4 :person_fencing: Kechuang
+
+[科研方面](./doc/科研方面.md)
 
 
 
