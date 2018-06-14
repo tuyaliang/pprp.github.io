@@ -12,21 +12,21 @@ I would watch anime or movie in my free time
 
 
 
-### Part 1:information_desk_person: Personal Health Management
+### Part 1 Personal Health Management
 
 
 
-### Part 2 :person_frowning:Programming Skills 
+### Part 2 Programming Skills 
 
 
 
-### Part 3 :person_with_pouting_face:English Learning
+### Part 3 English Learning
 
 
 
-### Part 4 :person_fencing: Kechuang
+### Part 4 Kechuang
 
-[科研方面](./doc/科研方面.md)
+- 2018/6/14[科研方面](./doc/科研方面.md)
 
 
 
@@ -34,7 +34,9 @@ I would watch anime or movie in my free time
 
 I am Using Markdown to create this blog and I will make full use of this blog to improve my self and sharing my personal thought, life perception.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+How to use Markdown to Draw pictures?
+
+[Markdown demo](./doc/Markdown.html)
 
 
 ### Support or Contact
