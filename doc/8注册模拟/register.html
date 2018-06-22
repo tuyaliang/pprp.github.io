@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>登录</title>
+</head>
+
+<body>
+    <form name="frmLx1" method="post" onSubmit="funcheck()">姓名：<input type="text" name="txtName"><br/><br/>
+        <input type="submit" value="注册" />
+        <input type="reset" value="重置" />
+    </form>
+    <script>
+        function funcheck() {
+            if (document.frmLx1.txtName.value == "") {
+                alert("输入为空，取消操作");
+            } else {
+                alert("已经成功提交");
+            }
+        }
+    </script>
+</body>
+
+</html>

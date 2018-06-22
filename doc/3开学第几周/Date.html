@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title> Date Calculate</title>
+</head>
+<script type="text/javascript">
+    function TodayInfo() {
+        var start = new Date(2018, 1, 25, 0, 0, 0, 0);
+        var now = new Date();
+        var cha = now.getTime() - start.getTime();
+        cha = (cha / 604800000);
+        cha = Math.ceil(cha);
+        alert("开学时间：" + start.toLocaleDateString() + "\n" + "现在时间：" + now.toLocaleDateString() + "\n" + "现在是第" + cha.toString() + "周的星期" + (now.getDay()).toString());
+    }
+</script>
+
+<body>
+    <h2> 本学期时间计算：</h2>
+    <p>下面的按钮可以计算从开学以来，今天是第几周，星期几：</p>
+    <button onclick="TodayInfo()">Calculate Date</button>
+</body>
+
+</html>
