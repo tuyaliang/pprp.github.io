@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>regex</title>
+    <script type="text/javascript">
+        function func() {
+            var s = document.getElementById("jss").value;
+            var regex = /\b[A-Za-z]/g;
+            var arr = s.match(regex);
+            var str = "";
+            for (var i = 0; i < arr.length; i++)
+                str = str + arr[i];
+            alert(str);
+        }
+    </script>
+
+</head>
+<center>
+    <h3>取字符串首字母</h3>
+    <hr/>
+    <br/>
+    <form>
+        请输入字符串(英文):
+        <input type="text" id="jss" />
+        <input type="button" value="begin" onclick="func()" />
+    </form>
+</center>
+
+</html>

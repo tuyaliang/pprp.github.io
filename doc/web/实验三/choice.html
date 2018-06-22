@@ -1,0 +1,32 @@
+<html>
+    
+    <head>
+    <title>
+        爱好选择
+    </title>
+</head>
+
+<body>
+    <h3>爱好选择器</h3>
+    <form name=frmLx2>
+        <input type="checkbox" name="chkAH" value="篮球">篮球<br>
+        <input type="checkbox" name="chkAH" value="足球">足球<br>
+        <input type="checkbox" name="chkAH" value="排球">排球<br>
+        <input type="checkbox" name="chkAH" value="乒乓球">乒乓球<br>
+        <input type="button" onClick="funGo1()" value="OK">
+    </form>
+    <script>
+        function funGo1() {
+            var chk = document.frmLx2.chkAH;
+            var str = "";
+            for (var i = 0; i < chk.length; i++) {
+                if (document.frmLx2.chkAH[i].checked) {
+                    str = str + document.frmLx2.chkAH[i].value;
+                    str = str + ",";
+                }
+            }
+            alert("您的爱好有:" + str);
+        }
+    </script>
+</body>
+</html>

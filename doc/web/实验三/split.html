@@ -1,0 +1,52 @@
+<html>
+    <head>
+    <title>数字字符串的处理</title>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function process() {
+            var mathstr = document.getElementById("mathstr").value;
+            var arr = mathstr.split(",");
+            var mx = -10000;
+            var mn = 10000;
+            var sum = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (mx < parseInt(arr[i]))
+                    mx = parseInt(arr[i]);
+                if (mn > parseInt(arr[i]))
+                    mn = parseInt(arr[i]);
+                sum = sum + parseInt(arr[i]);
+            }
+            document.getElementById("max").value = mx.toString();
+            document.getElementById("min").value = mn.toString();
+            document.getElementById("sum").value = sum.toString();
+        }
+    </script>
+</head>
+
+<body>
+    <h3>点击下边按钮，进行数字字符串的处理</h3>
+    <form name="form1">
+        <fieldset>
+            <legend>请在这里输入一串字符串
+            </legend>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 数字字符串： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="input1" value="" align="middle" id="mathstr" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" onclick="process()" value="Process the String"> 
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Max, Min Sum结果
+            </legend>
+            &nbsp;&nbsp;&nbsp;&nbsp;Max:
+            <input type="text" id="max" readonly/> &nbsp;&nbsp;&nbsp;&nbsp;Min:
+            <input type="text" id="min" readonly/> &nbsp;&nbsp;&nbsp;&nbsp;Sum:
+            <input type="text" id="sum" readonly/>
+        </fieldset>
+    </form>
+</body>
+
+</html>

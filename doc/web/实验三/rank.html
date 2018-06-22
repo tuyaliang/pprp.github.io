@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title> Document</title>
+    <script type="text/javascript">
+        function funfun() {
+            var str = document.getElementByld('ins').value;
+            var reg = /\d+/g;
+            var num = str.match(reg);
+            
+            alert(str);
+            
+            var sum = 0;
+            var max1 = parseInt(num[0]);
+            var min1 = parseInt(num[0]);
+
+            for (var j = 0; j < num.length; j++) {
+                sum = sum + parseInt(num[j]);
+                if (parseInt(num[j]) < parseInt(num[0])) {
+                    min1 = num[j];
+                } else {
+                    max1 = num[j];
+                }
+                for (var i = 0; i < num.length; i++) {
+                    if (parseint(num[i]) > parseInt(num[i + 1])) {
+                        temp = num[i];
+                        num[i] = num[i + 1];
+                        num[i + 1] = temp;
+                    }
+                }
+            }
+            a.value = max1;
+            b.value = min1;
+            c.value = sum;
+            bubble.value = sum;
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <label> 输入数字：</label>
+        <input type="text" id="ins">
+        <br/>
+        <input type="button" value="begin" onclick="funfun()">
+        <br/>
+        <label> 最大值为：</label>
+        <input type="text" id="a">
+        <br/>
+        <label> 最小值为：</label>
+        <input type="text" id="b">
+        <br/>
+        <label> 求和后为：</label>
+        <input type="text" id="c">
+        <br/>
+        <label> 排序后为：</label>
+        <input type="text" id="bubble">
+        <br/>
+
+    </form>
+</body>
+
+</html>

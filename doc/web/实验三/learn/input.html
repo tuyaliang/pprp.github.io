@@ -1,0 +1,20 @@
+<html>
+    <head>
+    <script>
+        function inputs(obj) {
+        obj.style.background="white";
+            if(obj.value=='')
+                alert("input cannot be empty");
+        }
+        function inputfocus(obj){
+            obj.style.background='yellow';
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" onfocus="inputfocus(this)"
+           onblur="inputs(this)"/>
+    <input type="button" value="btn"/>
+</body>
+</html>
