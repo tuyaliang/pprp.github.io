@@ -53,10 +53,7 @@ How to use Markdown to Draw pictures?
 
 ### Support or Contact
 
-> My personal Information
-
-> QQ: 1115957667
-
-> Github: [pprp's github](www.github.com/pprp)
-
-> Another Blog: [pprp's home](www.cnblogs.com/pprp)
+- My personal Information
+- QQ: 1115957667
+- Github: [pprp's github](www.github.com/pprp)
+- Another Blog: [pprp's home](https://www.cnblogs.com/pprp)
