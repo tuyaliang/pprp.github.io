@@ -25,10 +25,11 @@ Strong strength again
 ### Part 2 Programming Skills 
 
 - 将航电中的题目定期汇总到GitHub上
-- [web实验三](./doc/实验三董佩杰2016012963.pdf)
+- [web实验三](./doc/实验3董佩杰2016012963.pdf)
 - [乘法表](./doc/1九九乘法表/js.html)
 - [tablegenerator](./doc/2表格生成器/tablegenerator.html)
 - [图片循环展示](./doc/10DOM图片循环/cycle.html)
+- [图片循环展示(jquery)](./doc/11JQuery图片循环/jquery.html)
 
 ### Part 3 English Learning
 
