@@ -8,7 +8,9 @@
 
 I would watch anime in my free time.  I fall in the gay below and I am impressed by his courage.
 
-![](./pic/2.jpeg)
+<div align="center">
+<img width="25" height="30" src="./pic/2.jpeg"/>
+</div>
 
 Strong strength
 
