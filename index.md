@@ -4,20 +4,6 @@
 
 ​	There are four things that play an import role in my university. They are **English learning,Personal health management, Programming skills improvement and Preparing for gradute students**
 
-### Personal Interests
-
-I would watch anime in my free time.  I fall in the gay below and I am impressed by his courage.
-
-![](./pic/2.jpeg)
-
-Strong strength
-
-![](./pic/11.jpg)
-
-Strong strength again
-
-![](./pic/1.jpg)
-
 ### Part 1 Personal Health Management
 
 - 坚持每天晚上锻炼身体
@@ -39,8 +25,8 @@ Strong strength again
 
 - 2018/6/14
   - [科研方面安排](./doc/科研方面.md)
-
-
+- 2018/8/13
+  - [近期安排](./doc/工作安排.md)
 
 ### Markdown
 
