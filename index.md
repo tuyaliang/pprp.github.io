@@ -1,16 +1,15 @@
 ## Welcome to pprp 's homePage
 
-​	My virtual name is pprp, I am a college student in NWAFU majoring in Software Engineering. Now, I am Sophomore student and I am about to be a junior student. With a poor programming ability, I shoud use Github to improve my programming ability. I will have two project this Semester and I will try my best to do both of them well. 
+	My virtual name is pprp, I am a college student in NWAFU majoring in Software Engineering. Now, I am Sophomore student and I am about to be a junior student. With a poor programming ability, I shoud use Github to improve my programming ability. I will have two project this Semester and I will try my best to do both of them well. 
 
-​	There are four things that play an import role in my university. They are **English learning,Personal health management, Programming skills improvement and Preparing for gradute students**
+	There are four things that play an import role in my university. They are **English learning,Personal health management, Programming skills improvement and Preparing for gradute students**
 
 ### Part 1 Personal Health Management
 
-- 坚持每天晚上锻炼身体
+- persist exercising every day
 
 ### Part 2 Programming Skills 
 
-- 将航电中的题目定期汇总到GitHub上
 - [web实验三](./doc/实验3董佩杰2016012963.pdf)
 - [乘法表](./doc/1九九乘法表/js.html)
 - [tablegenerator](./doc/2表格生成器/tablegenerator.html)
@@ -29,6 +28,8 @@
   - [近期安排](./doc/工作安排.md)
 - 2018/8/15
   - [目前进度](./doc/目前进度.md)
+- 2018/8/20
+  - [近期关注重点](./doc/近期关注重点.md)
 
 ### Markdown
 
