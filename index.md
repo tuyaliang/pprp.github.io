@@ -1,10 +1,3 @@
----
-
-My name is pprp, I am a college student in NWAFU majoring in Software Engineering. Now, I am Sophomore student and I am about to be a junior student. With a poor programming ability, I shoud use Github to improve my programming ability. I will have two project this Semester and I will try my best to do both of them well. 
-	
-There are four things that play an import role in my university. They are **English learning,Personal health management, Programming skills improvement and Preparing for gradute students**
-
----
 
 
 # Welcome to pprp 's homePage
