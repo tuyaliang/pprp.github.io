@@ -33,7 +33,7 @@ This blog is mainly used for discuss the newest process in our 科创
 - 2018/8/20
   - [近期关注重点](./doc/近期关注重点.md)
 - 2018/9/9
-  - [最新安排](./doc/近期安排.md)
+  - [最新安排](./doc/工作安排.md)
 
 ## Markdown
 
