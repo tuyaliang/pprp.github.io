@@ -47,6 +47,17 @@ How to use Markdown to Draw pictures?
 
 [Using Mermaid](https://mermaidjs.github.io/flowchart.html)
 
+```mermaid
+graph LR
+
+x --> Linear
+Linear --> Sigmoid
+Sigmoid --> y
+```
+
+[Simple Learn](http://note.youdao.com/iyoudao/?p=2411)
+
+[Advanced Learn](http://note.youdao.com/iyoudao/?p=2445)
 
 ## Support or Contact
 
