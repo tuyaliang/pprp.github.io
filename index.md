@@ -45,6 +45,8 @@ How to use Markdown to Draw pictures?
 
 [Markdown demo](./doc/Markdown.html)
 
+[Using Mermaid](https://mermaidjs.github.io/flowchart.html)
+
 
 ## Support or Contact
 
