@@ -4,7 +4,22 @@
 
 [TOC]
 
-This blog is mainly used for discuss the newest process in our 科创
+##  科创
+
+- 2018/6/14
+  - [科研方面安排](./doc/科研方面.md)
+- 2018/8/13
+  - [近期安排](./doc/工作安排.md)
+- 2018/8/15
+  - [目前进度](./doc/目前进度.md)
+- 2018/8/20
+  - [近期关注重点](./doc/近期关注重点.md)
+- 2018/9/9
+  - [最新安排](./doc/工作安排.md)
+- 2018/9/18
+  - [最新安排](./doc/最新安排)
+- 2018/10/29
+  - [近期安排](./doc/10-29近期安排.md)
 
 ##  Personal Health Management
 
@@ -22,20 +37,7 @@ This blog is mainly used for discuss the newest process in our 科创
 
 - By now, I have finished the 4th and 6th English exam and I hope I can get good grade.
 
-##  科创
 
-- 2018/6/14
-  - [科研方面安排](./doc/科研方面.md)
-- 2018/8/13
-  - [近期安排](./doc/工作安排.md)
-- 2018/8/15
-  - [目前进度](./doc/目前进度.md)
-- 2018/8/20
-  - [近期关注重点](./doc/近期关注重点.md)
-- 2018/9/9
-  - [最新安排](./doc/工作安排.md)
-- 2018/9/18
-  - [最新安排](./doc/最新安排)
 
 ## Markdown
 
@@ -46,14 +48,6 @@ How to use Markdown to Draw pictures?
 [Markdown demo](./doc/Markdown.html)
 
 [Using Mermaid](https://mermaidjs.github.io/flowchart.html)
-
-```mermaid
-graph LR
-
-x --> Linear
-Linear --> Sigmoid
-Sigmoid --> y
-```
 
 [Simple Learn](http://note.youdao.com/iyoudao/?p=2411)
 
