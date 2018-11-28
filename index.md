@@ -21,6 +21,10 @@
 - 2018/10/29
   - [近期安排](./doc/10-29近期安排.md)
 
+## 链接
+
+[yolov3实战理解cfg文件](https://blog.csdn.net/phinoo/article/details/83022101)
+
 ##  Personal Health Management
 
 - persist exercising every day
