@@ -29,6 +29,10 @@
 
 [YOLOV3实战5：利用三方工具绘制P-R曲线](https://blog.csdn.net/phinoo/article/details/83025690)
 
+[YOLOV3可视化](https://blog.csdn.net/qq_34806812/article/details/81459982)
+
+[Opencv yolov3](https://blog.csdn.net/qq_27158179/article/details/81915740?tdsourcetag=s_pctim_aiomsg)
+
 
 
 ## 保留
