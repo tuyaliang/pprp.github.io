@@ -21,6 +21,18 @@
 - 2018/10/29
   - [近期安排](./doc/10-29近期安排.md)
 
+## 思路与工作
+
+- 测试mAP,画图
+- 看论文，准备论文相关的内容
+  - 画loss图
+  - 跑实验
+  - 跑一下
+- 通过加大 w, h 的值提升小目标检测效果
+- 学习率的设置，先大后小效果比较好
+- 模型剪枝
+- 创造更改网络
+
 ## 链接
 
 [yolov3实战理解cfg文件](https://blog.csdn.net/phinoo/article/details/83022101)
@@ -33,15 +45,13 @@
 
 [Opencv yolov3](https://blog.csdn.net/qq_27158179/article/details/81915740?tdsourcetag=s_pctim_aiomsg)
 
-
+[OPENCV YOLOv3 实践](https://blog.csdn.net/haoqimao_hard/article/details/82081285)
 
 ## 保留
 
 输出图像的计算方法：
-$$
-output = \frac{input-filter_size+2*padding}{stride}+1
-$$
 
+<center>output = （input-filter_size+2*padding）/（stride）+ 1</center>
 
 常用组合：
 
@@ -52,9 +62,8 @@ $$
 
 yolo层的前一层filter计算方法：
 
-$$
-filters = (classes + 5) * 预测框的个数
-$$
+<center>filters = (classes + 5) * 预测框的个数</center>
+
 
 
 
