@@ -51,6 +51,14 @@
 
 [darknet 预训练模型与cfg文件](https://pjreddie.com/darknet/imagenet/#darknet19_448)
 
+[deeplearning.ai](https://www.deeplearning.ai/)
+
+[Fast . ai](https://www.youtube.com/results?search_query=fast.ai)
+
+[Yolov3修改基础网络](https://blog.csdn.net/cgt19910923/article/details/83176997?tdsourcetag=s_pctim_aiomsg)
+
+
+
 ## 保留
 
 输出图像的计算方法：
