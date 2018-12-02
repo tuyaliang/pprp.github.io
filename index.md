@@ -49,6 +49,8 @@
 
 [OPENCV YOLOv3 实践](https://blog.csdn.net/haoqimao_hard/article/details/82081285)
 
+[darknet 预训练模型与cfg文件](https://pjreddie.com/darknet/imagenet/#darknet19_448)
+
 ## 保留
 
 输出图像的计算方法：
