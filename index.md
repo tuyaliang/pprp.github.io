@@ -32,6 +32,7 @@
 - 学习率的设置，先大后小效果比较好
 - 模型剪枝
 - 创造更改网络
+- 更改v3_improved网络，将maxpooling换成conv
 
 ## 链接
 
@@ -55,9 +56,15 @@
 
 [Fast . ai](https://www.youtube.com/results?search_query=fast.ai)
 
-[Yolov3修改基础网络](https://blog.csdn.net/cgt19910923/article/details/83176997?tdsourcetag=s_pctim_aiomsg)
+[Yolov3修改基础网络darknet19](https://blog.csdn.net/cgt19910923/article/details/83176997?tdsourcetag=s_pctim_aiomsg)
 
+[Yolov3网络改进以及修改](https://blog.csdn.net/sum_nap/article/details/80781587)
 
+[准确率召回率的理解](https://www.cnblogs.com/Zhi-Z/p/8728168.html)
+
+[YOLOv3增加网络结构](https://blog.csdn.net/sum_nap/article/details/80781587)
+
+[yotube yolo9000](https://www.youtube.com/watch?v=GBu2jofRJtk)
 
 ## 保留
 
@@ -67,10 +74,14 @@
 
 常用组合：
 
-- 组合一：不改变feature大小：
+- 组合一：不改变feature大小，改变filter：
   - size=3*3
   - pad=1
   - stride=1
+- 组合二:   max Pooling 不改变任何参数
+  - stride=1
+  - size=2
+- 组合三：
 
 yolo层的前一层filter计算方法：
 
