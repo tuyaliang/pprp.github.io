@@ -66,6 +66,8 @@
 
 [yotube yolo9000](https://www.youtube.com/watch?v=GBu2jofRJtk)
 
+[Opencv-python教程](https://www.kancloud.cn/aollo/aolloopencv/269602)
+
 ## 保留
 
 输出图像的计算方法：
@@ -74,14 +76,17 @@
 
 常用组合：
 
-- 组合一：不改变feature大小，改变filter：
+- 组合一：conv 不改变feature大小，改变filter：
   - size=3*3
   - pad=1
   - stride=1
 - 组合二:   max Pooling 不改变任何参数
   - stride=1
   - size=2
-- 组合三：
+- 组合三：conv 只改filter,不改feature大小：
+  - size=1
+  - stride=1
+  - pad=1
 
 yolo层的前一层filter计算方法：
 
