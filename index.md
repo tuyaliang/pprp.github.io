@@ -87,6 +87,10 @@
   - size=1
   - stride=1
   - pad=1
+- 组合四：conv size变为原来一半
+  - size=3
+  - stride=2
+  - pad=1
 
 yolo层的前一层filter计算方法：
 
