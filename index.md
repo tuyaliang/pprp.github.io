@@ -1,8 +1,6 @@
 
 
-# Welcome to pprp 's homePage
-
-[TOC]
+# To Be A Deep Learner
 
 ##  科创
 
@@ -34,6 +32,35 @@
 - 创造更改网络
 - 更改v3_improved网络，将maxpooling换成conv
 - 训练集中增加小目标可以提高小目标的检测效果
+- 目前抛弃模型压缩这种想法先将基础网络部分搞懂
+
+
+
+## 靠谱的思路
+
+> 注意调参的时候将尺度关闭，batch改大，图片正常
+>
+> 投论文尽量投CCF上有分类的
+>
+> 写论文的时候如果设计一个自己的网络要进行数学上的证明
+
+大小目标只是一个卷积的感受野的问题，yolo这方面做得还不够好，yolo是一个三分类的目标等级做的，SSD的结构更适合小目标，里边是特征金字塔，将Yolo, SSD的优点融合然后再自己网络的构造。高级做法是细粒度（待看）。
+
+下一阶段工作：
+
+1. FPN论文阅读+网络结构梳理
+2. SSD论文阅读+网络结构梳理
+3. 有时间再看一下细粒度方面的
+4. yolo源码-对具体使用以及内容理解有帮助
+
+
+
+几个小的点：
+
+1. batch 32 64
+2. max替换为conv
+3. 使用有切割图片的训练集进行进一步的测试
+4. 可视化研究
 
 ## 链接
 
@@ -55,7 +82,7 @@
 
 [deeplearning.ai](https://www.deeplearning.ai/)
 
-[Fast . ai](https://www.youtube.com/results?search_query=fast.ai)
+[Fast. ai](https://www.youtube.com/results?search_query=fast.ai)
 
 [Yolov3修改基础网络darknet19](https://blog.csdn.net/cgt19910923/article/details/83176997?tdsourcetag=s_pctim_aiomsg)
 
@@ -74,6 +101,10 @@
 [Yolov2 可视化研究](https://blog.csdn.net/cgt19910923/article/details/80784525)
 
 [模型剪枝总结](https://jacobgil.github.io/deeplearning/pruning-deep-learning)
+
+[一个比较详细的yolo指南](https://medium.com/@monocasero/object-detection-with-yolo-implementations-and-how-to-use-them-5da928356035)
+
+[coursera 课程](https://www.coursera.org/learn/convolutional-neural-networks/lecture/4Trod/edge-detection-example)
 
 ## 保留
 
