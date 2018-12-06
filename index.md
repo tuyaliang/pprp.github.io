@@ -33,6 +33,7 @@
 - 模型剪枝
 - 创造更改网络
 - 更改v3_improved网络，将maxpooling换成conv
+- 训练集中增加小目标可以提高小目标的检测效果
 
 ## 链接
 
@@ -67,6 +68,12 @@
 [yotube yolo9000](https://www.youtube.com/watch?v=GBu2jofRJtk)
 
 [Opencv-python教程](https://www.kancloud.cn/aollo/aolloopencv/269602)
+
+[darknet anchor设计](https://blog.csdn.net/m_buddy/article/details/82926024)
+
+[Yolov2 可视化研究](https://blog.csdn.net/cgt19910923/article/details/80784525)
+
+[模型剪枝总结](https://jacobgil.github.io/deeplearning/pruning-deep-learning)
 
 ## 保留
 
