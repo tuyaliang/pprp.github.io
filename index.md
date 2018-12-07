@@ -62,6 +62,28 @@
 3. 使用有切割图片的训练集进行进一步的测试
 4. 可视化研究
 
+## 调参经验
+
+
+
+1、learning-rate 学习速率：学习速率越小，模型收敛花费的时间就越长，但是可以提高模型精确度。一般初始设置为0.1，然后每次除以0.2或者0.5来改进，得到最终值；
+
+2、batchsize 样本批次容量：影响模型的优化程度和收敛速度，需要参考你的数据集大小来设置，具体问题具体分析
+
+3、weightdecay 权重衰减：用来在反向传播中更新权重和偏置，一般设置为0.005；
+
+4、epoch-number 训练次数：包括所有训练样本的一个正向传递和一个反向传递，训练至模型收敛即可；（注：和迭代周期iteration不一样）
+
+5、经过交叉验证，dropout率等于0.5的时候效果最好，原因是0.5的时候dropout随机生成的网络结构最多。
+
+
+
+ref:
+
+https://blog.csdn.net/weixin_38437404/article/details/74927694
+
+https://blog.csdn.net/weixin_38437404/article/details/78837176
+
 ## 链接
 
 [yolov3实战理解cfg文件](https://blog.csdn.net/phinoo/article/details/83022101)
