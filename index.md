@@ -132,6 +132,8 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 [YOLO实验总结](https://blog.csdn.net/qq_20657717/article/details/81669006)
 
+[YOLOv3 darknet源码细节上优化](https://blog.csdn.net/u012554092/article/details/78594425)
+
 ## 保留
 
 输出图像的计算方法：
