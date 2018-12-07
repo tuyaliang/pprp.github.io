@@ -106,6 +106,10 @@
 
 [coursera 课程](https://www.coursera.org/learn/convolutional-neural-networks/lecture/4Trod/edge-detection-example)
 
+[YOLO LITE轻量级](https://blog.csdn.net/ghw15221836342/article/details/84427923)
+
+[YOLO实验总结](https://blog.csdn.net/qq_20657717/article/details/81669006)
+
 ## 保留
 
 输出图像的计算方法：
