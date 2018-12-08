@@ -151,6 +151,7 @@ yolo层的前一层filter计算方法：
 - res结构：
 
 filter: 128->256->128->256.....
+
 ```
 [convolutional]
 batch_normalize=1
@@ -172,7 +173,9 @@ activation=leaky
 from=-3
 activation=linear
 ```
+
 - 只改filter不改feature大小：
+
 ```
 [convolutional]
 batch_normalize=1
@@ -182,7 +185,9 @@ stride=1
 pad=1
 activation=leaky
 ```
+
 or
+
 ```
 [convolutional]
 batch_normalize=1
@@ -194,12 +199,15 @@ activation=leaky
 ```
 
 - feature减半：
+
 ```
 [maxpool]
 size=2
 stride=2
 ```
+
 or
+
 ```
 [convolutional]
 batch_normalize=1
@@ -211,6 +219,7 @@ activation=leaky
 ```
 
 - 普通的filter变大变小：
+
 ```
 [convolutional]
 batch_normalize=1
@@ -228,7 +237,9 @@ stride=1
 pad=1
 activation=leaky
 ```
+
 - feature扩大为原来二倍：
+
 ```
 [upsample]
 stride=2
