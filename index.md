@@ -140,29 +140,107 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 <center>output = （input-filter_size+2*padding）/（stride）+ 1</center>
 
-常用组合：
-
-- 组合一：conv 不改变feature大小，改变filter：
-  - size=3*3
-  - pad=1
-  - stride=1
-- 组合二:   max Pooling 不改变任何参数
-  - stride=1
-  - size=2
-- 组合三：conv 只改filter,不改feature大小：
-  - size=1
-  - stride=1
-  - pad=1
-- 组合四：conv size变为原来一半
-  - size=3
-  - stride=2
-  - pad=1
-
 yolo层的前一层filter计算方法：
 
 <center>filters = (classes + 5) * 预测框的个数</center>
 
 
+
+## 网络更改经验
+
+- res结构：
+
+filter: 128->256->128->256.....
+```
+[convolutional]
+batch_normalize=1
+filters=128
+size=1
+stride=1
+pad=1
+activation=leaky
+
+[convolutional]
+batch_normalize=1
+filters=256
+size=3
+stride=1
+pad=1
+activation=leaky
+
+[shortcut]
+from=-3
+activation=linear
+```
+- 只改filter不改feature大小：
+```
+[convolutional]
+batch_normalize=1
+filters=512
+size=1
+stride=1
+pad=1
+activation=leaky
+```
+or
+```
+[convolutional]
+batch_normalize=1
+filters=1024
+size=3
+stride=1
+pad=1
+activation=leaky
+```
+
+- feature减半：
+```
+[maxpool]
+size=2
+stride=2
+```
+or
+```
+[convolutional]
+batch_normalize=1
+filters=128
+size=3
+stride=2
+pad=1
+activation=leaky
+```
+
+- 普通的filter变大变小：
+```
+[convolutional]
+batch_normalize=1
+filters=256
+size=3
+stride=1
+pad=1
+activation=leaky
+
+[convolutional]
+batch_normalize=1
+filters=128
+size=1
+stride=1
+pad=1
+activation=leaky
+```
+- feature扩大为原来二倍：
+```
+[upsample]
+stride=2
+```
+
+- 不改变任何参数：
+
+```
+[maxpool]
+size=2
+stride=1
+```
 
 
 #### 参数说明
