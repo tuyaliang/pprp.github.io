@@ -134,6 +134,10 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 [YOLOv3 darknet源码细节上优化](https://blog.csdn.net/u012554092/article/details/78594425)
 
+[github darknet 可视化1](https://github.com/GZHermit/darknet-visualization_script/tree/master)
+
+[github darknet 可视化2](https://github.com/xueeinstein/darknet-vis)
+
 ## 保留
 
 输出图像的计算方法：
