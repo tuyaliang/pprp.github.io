@@ -138,6 +138,10 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 [github darknet 可视化2](https://github.com/xueeinstein/darknet-vis)
 
+[调参模型方法](https://blog.csdn.net/u013228894/article/details/79544109)
+
+[c++调用模型](https://blog.csdn.net/weixin_33860450/article/details/84890877)
+
 ## 保留
 
 输出图像的计算方法：
