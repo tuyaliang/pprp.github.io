@@ -142,6 +142,8 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 [c++调用模型](https://blog.csdn.net/weixin_33860450/article/details/84890877)
 
+[详细解释YOLOv3边框预测分析](https://blog.csdn.net/qq_34199326/article/details/84109828?tdsourcetag=s_pctim_aiomsg)
+
 ## 保留
 
 输出图像的计算方法：
