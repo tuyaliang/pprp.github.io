@@ -2,6 +2,8 @@
 
 # To Be A Deep Learner
 
+[why not spend some time reading book about AI?](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/chapter1.html)
+
 ##  科创
 
 - 2018/6/14
@@ -143,6 +145,8 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 [c++调用模型](https://blog.csdn.net/weixin_33860450/article/details/84890877)
 
 [详细解释YOLOv3边框预测分析](https://blog.csdn.net/qq_34199326/article/details/84109828?tdsourcetag=s_pctim_aiomsg)
+
+[opencv-python教程](https://www.kancloud.cn/aollo/aolloopencv/259610)
 
 ## 保留
 
