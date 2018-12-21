@@ -148,6 +148,8 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 [opencv-python教程](https://www.kancloud.cn/aollo/aolloopencv/259610)
 
+[pytorch使用遇到的问题以及技巧](https://oldpan.me/archives/pytorch-conmon-problem-in-training)
+
 ## 保留
 
 输出图像的计算方法：
