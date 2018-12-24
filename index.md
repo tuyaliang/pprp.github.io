@@ -66,8 +66,6 @@
 
 ## 调参经验
 
-
-
 1、learning-rate 学习速率：学习速率越小，模型收敛花费的时间就越长，但是可以提高模型精确度。一般初始设置为0.1，然后每次除以0.2或者0.5来改进，得到最终值；
 
 2、batchsize 样本批次容量：影响模型的优化程度和收敛速度，需要参考你的数据集大小来设置，具体问题具体分析
@@ -159,6 +157,17 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 yolo层的前一层filter计算方法：
 
 <center>filters = (classes + 5) * 预测框的个数</center>
+
+特征融合一般操作：
+
+1. Route from previous layer
+2. Conv it for 1~ times
+3. Do upsample
+4. Route from the corresponding layer with same size of feature map
+5. Continue
+
+
+
 
 
 
@@ -331,25 +340,17 @@ stride=1
                                随机尺度训练的范围，这样可以增大batch，望读者自行尝试！
   ```
 
-
-
 ##  Personal Health Management
 
 - persist exercising every day
 
-##  Programming Skills 
+##  Small Web Learning 
 
 - [web实验三](./doc/实验3董佩杰2016012963.pdf)
 - [乘法表](./doc/1九九乘法表/js.html)
 - [tablegenerator](./doc/2表格生成器/tablegenerator.html)
 - [图片循环展示](./doc/10DOM图片循环/cycle.html)
 - [图片循环展示(jquery)](./doc/11JQuery图片循环/jquery.html)
-
-##  English Learning
-
-- By now, I have finished the 4th and 6th English exam and I hope I can get good grade.
-
-
 
 ## Markdown
 
