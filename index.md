@@ -161,6 +161,8 @@ https://blog.csdn.net/weixin_38437404/article/details/78837176
 
 [pytorch使用遇到的问题以及技巧](https://oldpan.me/archives/pytorch-conmon-problem-in-training)
 
+[learning Rate 相关调参](https://nanfei.xyz/2018/01/23/YOLOv2%E8%B0%83%E5%8F%82%E6%80%BB%E7%BB%93/#more)
+
 ## 保留
 
 输出图像的计算方法：
