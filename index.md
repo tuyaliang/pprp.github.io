@@ -43,7 +43,7 @@
 - 更改v3_improved网络，将maxpooling换成conv
 - 训练集中增加小目标可以提高小目标的检测效果
 - 目前抛弃模型压缩这种想法先将基础网络部分搞懂
-- [Trick](./tricks.md)
+- [大神提供的Trick](./tricks.md)
 
 ## 改进的Point
 
