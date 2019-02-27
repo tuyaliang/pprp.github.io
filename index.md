@@ -184,7 +184,11 @@ yolo层的前一层filter计算方法：
 
 
 
+## 学习资料
 
+https://www.leiphone.com/news/201708/7pRPkwvzEG1jgimW.html
+
+https://www.leiphone.com/news/201710/AvsYtaMGO8UTWygM.html
 
 
 ## 网络更改经验
