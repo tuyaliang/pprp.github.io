@@ -1,0 +1,43 @@
+- soft nms
+- softer nms [link](https://mp.weixin.qq.com/s?__biz=MzIwMTE1NjQxMQ==&mid=2247484346&idx=1&sn=d92cfed3909b61b79f59fba75b84cdc1&chksm=96f371eea184f8f8a67c456cbc3e7a6e40e30d7b305a84000d45fe4aa5e078b24e50bc74de7b&mpshare=1&scene=23&srcid=01251VDbW0m15t9whtVjHGFW#rd)
+- focal loss
+- deformable
+- RFB
+- M2Det
+- RefineDet
+- AdaBound
+- yolov3-deep sort 行人检测
+- CFENet
+- 感受野的总结
+- 调参方面：
+  - 合适的学习率
+  - 调参流程：
+    - 从简单模型入手
+    - 成功搭建模型，重现结果
+    - 由粗到细随即搜索优化超参数
+    - 如果欠拟合，增大模型；如果过拟合就添加数据或者调整
+  - 常见错误类型：
+    - tensor形状
+    - 预处理输入错误
+    - 损失函数错误输入
+    - 忘记设置正确训练模型
+    - 错误的数据类型
+  - 测试集错误率评估模型：
+    - 测试机错误率=错误率下限+偏移+方差+分布偏差+过拟合
+  - 欠拟合解决方法：
+    - 模型更大（filter+更多的层）
+    - 减少正规化
+    - 错误分析（效果展示）
+    - 换一种模型架构
+    - 超参调节（测试模型对不同超参的敏感性）--贝叶斯优化
+      - learning rate
+      - optimizer choice
+      - batch size
+      - weight initialization
+      - loss function
+      - model depth
+    - 加入更多特征（route）
+- 吴恩达机器学习年鉴[link](http://www.insideai.cn/ngmly/)
+- CNN可视化：知乎
+- NAS - 神经架构搜索算法
+- one-stage https://blog.csdn.net/watermelon1123/article/details/86630501

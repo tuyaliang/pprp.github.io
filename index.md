@@ -2,34 +2,34 @@
 
 # To Be A Deep Learner
 
+## Books
+
 [why not spend some time reading book about AI?](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/chapter1.html)
 
 ##  科创
 
 - 2018/6/14
-  - [科研方面安排](./doc/科研方面.md)
+  - [科研方面安排](./doc/科创6-14.md)
 - 2018/8/13
-  - [近期安排](./doc/工作安排.md)
-- 2018/8/15
-  - [目前进度](./doc/目前进度.md)
+  - [近期安排](./doc/科创8-13.md)
 - 2018/8/20
-  - [近期关注重点](./doc/近期关注重点.md)
+  - [近期关注重点](./doc/科创8-20md)
 - 2018/9/9
-  - [最新安排](./doc/工作安排.md)
+  - [最新安排](./doc/科创9-9.md)
 - 2018/9/18
-  - [最新安排](./doc/最新安排)
+  - [最新安排](./doc/科创9-18.md)
 - 2018/10/29
-  - [近期安排](./doc/10-29近期安排.md)
+  - [近期安排](./doc/科创10-29.md)
 - 2018/12/25
-  - anchor计算详细过程简介
-  - Faster R-CNN Anchor讲解
-  - 更改loss计算方式---根号
-  - 对比YOLT与darknet19
-  - SSD与YOLO区别
-  - 孔洞卷积
-  - 5万步-统一化
+  - [安排](./doc/科创12-25.md)
 - 2019/3/3
-  - [最新想法](./doc/update.md)
+  - [最新想法](./doc/科创3-3.md)
+- 2019/4/20
+  - 科创结题答辩
+
+## YOLOv3
+
+
 
 ## 思路与工作
 
@@ -46,6 +46,12 @@
 - 训练集中增加小目标可以提高小目标的检测效果
 - 目前抛弃模型压缩这种想法先将基础网络部分搞懂
 - [大神提供的Trick](./tricks.md)
+
+## 论文专区
+
+
+
+
 
 ## 改进的Point
 
@@ -362,18 +368,6 @@ stride=1
                                随机尺度训练的范围，这样可以增大batch，望读者自行尝试！
   ```
 
-##  Personal Health Management
-
-- persist exercising every day
-
-##  Small Web Learning 
-
-- [web实验三](./doc/实验3董佩杰2016012963.pdf)
-- [乘法表](./doc/1九九乘法表/js.html)
-- [tablegenerator](./doc/2表格生成器/tablegenerator.html)
-- [图片循环展示](./doc/10DOM图片循环/cycle.html)
-- [图片循环展示(jquery)](./doc/11JQuery图片循环/jquery.html)
-
 ## Markdown
 
 I am Using Markdown to create this blog and I will make full use of this blog to improve my self and sharing my personal thought, life perception.
@@ -390,7 +384,6 @@ How to use Markdown to Draw pictures?
 
 ## Support or Contact
 
-- My personal Information
 - QQ: 1115957667
 - Github: [pprp's github](www.github.com/pprp)
 - Another Blog: [pprp's home](https://www.cnblogs.com/pprp)
