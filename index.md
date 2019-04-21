@@ -30,6 +30,12 @@
 - [2019/3/3](./doc/科创3-3.md)
 - 2019/4/20 科创结题答辩
 
+## YOLO
+
+[yolo 知识总结，相关介绍](./yolo.md)
+
+[yolo网络构造](./tricks.md)
+
 ## Markdown
 
 How to use Markdown to Draw pictures?
