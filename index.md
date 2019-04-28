@@ -57,6 +57,8 @@ http://ppwwyyxx.com/blog/
 https://www.byvoid.com/zhs/
 http://yuandong-tian.com/
 
+高端网络设计经验： http://karpathy.github.io/2019/04/25/recipe/
+
 ## Support or Contact
 
 - QQ: 1115957667
