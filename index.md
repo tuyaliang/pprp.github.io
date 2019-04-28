@@ -48,6 +48,15 @@ How to use Markdown to Draw pictures?
 
 [Advanced Learn](http://note.youdao.com/iyoudao/?p=2445)
 
+
+
+## 大佬博客
+
+http://hzwer.com/8877.html
+http://ppwwyyxx.com/blog/
+https://www.byvoid.com/zhs/
+http://yuandong-tian.com/
+
 ## Support or Contact
 
 - QQ: 1115957667
