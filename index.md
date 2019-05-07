@@ -59,6 +59,26 @@ http://yuandong-tian.com/
 
 高端网络设计经验： http://karpathy.github.io/2019/04/25/recipe/
 
+## 锻炼
+
+五分钟燃脂：
+
+**中等难度：**
+
+- 高抬腿
+- 深蹲
+- 开合跳
+- 俯卧撑
+- 卷腹
+
+高难度：
+
+- 波比上肢跳
+- 俯卧撑
+- 蹬自行车
+- 转换弓步
+- V坐收腹
+
 ## Support or Contact
 
 - QQ: 1115957667
