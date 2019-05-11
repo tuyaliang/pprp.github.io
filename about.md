@@ -4,23 +4,25 @@ title: About me
 permalink: /about/
 ---
 
-![Jacob]({{ site.url }}/assets/jacob.jpg)
+![Jacob]({{ site.url }}/assets/pprp.jpg)
 
 
-My name is Jacob Gildenblat.
+My name is Peijie Dong.
 
-I'm a Computer Vision and Deep Learning developer from Israel.
+I'm a Computer Vision and Deep Learning developer from China.
 
-Apart from what I write about here, I have other open source projects on my [github](http://github.com/jacobgil).
+Apart from what I write about here, I have other open source projects on my [github](http://github.com/pprp).
 
 Drop me a line.
 
 
 ## Getting in touch
-Email: jacob.gildenblat@gmail.com
+Email: nwafudpj@gmail.com
 
-[Linkedin](https://www.linkedin.com/in/jacob-gildenblat)
+[cnblogs](https://www.cnblogs.com/pprp)
 
-[Twitter](https://twitter.com/JacobGildenblat)
+[Linkedin](https://www.linkedin.com/in/pprp)
 
-[Github](http://github.com/jacobgil)
+[Twitter](https://twitter.com/pprp)
+
+[Github](http://github.com/pprp)
