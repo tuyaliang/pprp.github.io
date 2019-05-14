@@ -6,7 +6,7 @@ permalink: machinelearning/opencv-python
 categories: ImageProcess
 ---
 
-[TOC]
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" width="40%"/>
 
 ## 1. 需要安装的库
 
