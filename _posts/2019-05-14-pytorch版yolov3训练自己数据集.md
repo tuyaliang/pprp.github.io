@@ -1,4 +1,4 @@
-![](https://pjreddie.com/media/image/yologo_2.png)
+<img src="https://pjreddie.com/media/image/yologo_2.png" width="50%" align="center"/>
 
 
 ### 1. 环境搭建
@@ -260,7 +260,7 @@ python train.py --data data/coco.data --cfg cfg/yolov3.cfg
 
 如果日志正常输出那证明可以运行了
 
-![1557826254445](1557826254445.png)
+![1557826254445](https://pprp.github.io/assets/1557826254445.png)
 
 如果中断了，可以恢复训练
 
