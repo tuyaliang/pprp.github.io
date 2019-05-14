@@ -1,6 +1,5 @@
-## pytorch版yolov3训练自己数据集
+![](https://pjreddie.com/media/image/yologo_2.png)
 
-[TOC]
 
 ### 1. 环境搭建
 
